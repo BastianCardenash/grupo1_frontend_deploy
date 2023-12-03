@@ -54,8 +54,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/sj.jpg');
-  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('../../assets/sj.jpg') no-repeat;
+  background-image: url('../../../public/sj.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('../../../public/sj.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }

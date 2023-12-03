@@ -4,7 +4,7 @@ import './LandingPage.css'
 import { TbMapSearch } from "react-icons/tb";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import { MdOutlineForum } from "react-icons/md";
-import Logo from '../../../public/Logo.png';
+import Logo from '../../assets/Logo.png'
 import Login from './Login';
 
 function LandingPage() {

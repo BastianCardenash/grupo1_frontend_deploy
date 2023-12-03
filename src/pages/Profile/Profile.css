@@ -1,0 +1,139 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-sections-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border: 2px solid #485FC7;
+  box-shadow: 0 1px 4px #213547;
+  border-radius: 10px;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.profile-info-own {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: fit-content;
+  border: 2px solid #485FC7;
+  box-shadow: 0 1px 4px #213547;
+  border-radius: 10px;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.profile-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: fit-content;
+  border: 2px solid #485FC7;
+  box-shadow: 0 1px 4px #213547;
+  border-radius: 10px;
+  margin: 2rem;
+  margin-top: 0;
+}
+
+.profile-friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border-bottom: 2px solid #485FC7;
+}
+
+.profile-friend:last-child {
+  border: 0;
+}
+
+.profile-friend:first-child {
+  border: 0;
+}
+
+.profile-name {
+  color: #213547;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 2rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.profile-text {
+  color: #213547;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+  margin: 0;
+} 
+
+.profile-line {
+  border: 1px solid #485FC7;
+  height: 0;
+  width: 95%;
+  box-shadow: 0 1px 2px #213547;
+}
+
+.profile-info-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 2rem;
+  width: 95%;
+}
+
+.profile-edit-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  width: 95%;
+}
+
+.edit-profile-button {
+  width: 14rem;
+  color: #485FC7;
+  border: 2px solid #485FC7;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	border-radius: 5px;
+  height: 2.5rem;
+	margin: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.edit-profile {
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #213547;
+  line-height: 1.5rem;
+  border: 2px solid #213547;
+  border-radius: 10px;
+  width: 24rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,103 @@
+.event-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+    border: 1px solid #213547;
+    box-shadow: 0 1px 4px rgb(0 0 0);
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.event-card-header {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #213547;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.event-icon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: #485FC7;
+    cursor: pointer;
+}
+
+.event-user {
+    color: #213547;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 16rem;
+    width: 180px;
+}
+
+.join-button {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.event-title {
+    color: #213547;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.event-text {
+    color: #213547;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.event-card-body {
+    max-width: 600px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.event-button {
+    width: 8rem;
+    color: #485FC7;
+    border: 2px solid #485FC7;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    height: 2.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.event-button-2 {
+    width: 14rem;
+    color: #485FC7;
+    border: 2px solid #485FC7;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    height: 2.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.participants-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}

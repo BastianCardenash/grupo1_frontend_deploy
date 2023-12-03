@@ -1,0 +1,41 @@
+.instrucctions-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 50px;
+  color: #213547;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+h1, h2 {
+  color: #213547;
+  font-weight: 700;
+}
+  
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

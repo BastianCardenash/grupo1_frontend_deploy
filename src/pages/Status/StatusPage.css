@@ -1,0 +1,40 @@
+.status-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.status-title {
+  color: #213547;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 2.5rem;
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.grid-status {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding-bottom: 2rem;
+}
+
+.status-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.status-text {
+  color: #213547;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 2rem;
+  text-align: center;
+  margin-right: 1rem;
+}

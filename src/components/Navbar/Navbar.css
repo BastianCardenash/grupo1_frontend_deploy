@@ -1,0 +1,38 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #485FC7;
+  padding-top: 0.5rem;
+}
+
+.navbar-section {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  gap: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navbar-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 100%;
+}
+
+.navbar-text {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #213547;
+}

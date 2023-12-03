@@ -1,0 +1,84 @@
+.input-text {
+  height: 2rem;
+  width: 10rem;
+  border: 2px solid #213547;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.label-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #213547;
+  text-indent: 1.5rem;
+}
+
+.input-search {
+  height: 2rem;
+  width: 20rem;
+  border: 2px solid #213547;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #213547;
+  text-indent: 1rem;
+}
+
+.input-search:focus {
+  outline: 0;
+}
+
+.search-container {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-icon {
+  position: relative;
+  top: 25px;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-input {
+  display: block;
+  justify-content: first baseline;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #213547;
+  line-height: 1.5rem;
+  border: 2px solid #213547;
+  border-radius: 10px;
+  width: 24rem;
+  height: 10rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.normal-input {
+  display: block;
+  justify-content: first baseline;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #213547;
+  line-height: 1.5rem;
+  border: 2px solid #213547;
+  border-radius: 10px;
+  width: 24rem;
+  padding: 0.5rem;
+}
+
+.post-input:focus {
+  outline: 0;
+}

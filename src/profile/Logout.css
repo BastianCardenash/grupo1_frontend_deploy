@@ -1,0 +1,8 @@
+.logoutbutton button {
+  background-color: #485FC7;
+  color: #213547;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+}

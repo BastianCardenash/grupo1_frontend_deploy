@@ -23,23 +23,9 @@ function Navbar() {
   const api = axios.create({ baseURL: import.meta.env.VITE_BACKEND_URL })
   api.interceptors.request.use((config) => (config.headers.Authorization = `Bearer ${token}`, config))
 
-  const config = {
-    'method': 'get',
-    'url': `${import.meta.env.VITE_BACKEND_URL}/users/${actualUserId}`,
-    'headers': {
-        'Authorization': `Bearer ${token}`
-    }
-  }
-
-  useEffect(() => {
-      axios(config).then((response) => {
-        setUseremail(response.data.email);
-      }).catch((error) => {
-      });
-  }, []);
-
   const isAdmin = () => {
-    if (useremail === 'admin@uc.cl') {
+    const scope = parseJwt(token).scope;
+    if (scope.includes('admin')) {
       return true;
     } else {
       return false;

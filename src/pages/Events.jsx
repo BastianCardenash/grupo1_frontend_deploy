@@ -114,6 +114,15 @@ function Events() {
     }
   }
 
+  const isAdmin = () => {
+    const scope = parseJwt(token).scope;
+    if (scope.includes('admin')) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   return (
     <div className='home-page-container'>
       <Navbar />
@@ -138,7 +147,7 @@ function Events() {
                     name={event.userName}
                     title={event.title}
                     description={event.description}
-                    canDelete={event.user_id == actualUserId || actualUserId == 1}
+                    canDelete={event.user_id ==  actualUserId || isAdmin()}
                     deleteEvent={deleteEvent}
                     joinEvent={handleJoinEvent}
                     getEvents={getEvents}

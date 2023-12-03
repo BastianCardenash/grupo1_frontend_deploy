@@ -194,6 +194,15 @@ function Home() {
     }
   }, [token])
 
+  const isAdmin = () => {
+    const scope = parseJwt(token).scope;
+    if (scope.includes('admin')) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   if (accessDenied) {
     return (
       <>
@@ -254,7 +263,7 @@ function Home() {
                         name={post.userName}
                         title={post.title}
                         description={post.text}
-                        canDelete={post.user_id == actualUserId.toString() || actualUserId == 1}
+                        canDelete={post.user_id ==  actualUserId || isAdmin()}
                         postComment={handlePostComment}
                         openComments={triggerComments}
                       />
@@ -280,7 +289,7 @@ function Home() {
                       name={comment.userName}
                       commentId={comment.id}
                       description={comment.description}
-                      canDelete={comment.user_id == actualUserId.toString() || actualUserId == 1}
+                      canDelete={comment.user_id ==  actualUserId || isAdmin()}
                       deleteComment={deleteComment}
                       postId={comment.post_id}
                     />
